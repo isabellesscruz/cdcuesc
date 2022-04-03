@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    margin-right: 0;
 }
 
 header {
@@ -29,7 +30,6 @@ nav #Links {
     padding-right: 20px;
     gap: 30px;
     max-height: 0;
-    padding-left: 45%;
     pointer-events: auto;
     text-align: center;
     padding-bottom: 15px;
@@ -147,7 +147,6 @@ a {
 .ListaCDC {
     display: flex;
     justify-content: space-around;
-    width: 100%;
     font-size: 16px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
