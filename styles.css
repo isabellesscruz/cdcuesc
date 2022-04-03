@@ -62,6 +62,10 @@ a {
     align-items: center;
 }
 
+.ExternalLinks:hover {
+    background-color: #031A5B;
+}
+
 .ExternalLinks {
     display: block;
     width: 185px;
@@ -87,12 +91,18 @@ a {
 
 .Rede li {
     list-style-type: arrow;
+    color: white;
+}
+
+.Rede h1 {
+    color: white;
+    padding-bottom: 5px;
 }
 
 .Rede {
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 30px;
-    background-color: #D9D9D9;
+    background-color: #7ACBCD;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
