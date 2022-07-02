@@ -12,19 +12,36 @@
 
 <body>
     <header>
-        <a id="Logo" href="./index.html">
-            <img src="./assets/logocdc.svg" />
-        </a>
-        <nav>
-            <ul id="Links">
-                <li><a class="linkativo" href="./index.html">INÍCIO</a></li>
-                <li><a href="./eventos.html">EVENTOS</a></li>
-                <li><a href="./equipe.html">EQUIPE</a></li>
-                <li><a href="./contato.html">CONTATO</a></li>
-                <li><a href="https://relle.ufsc.br" target="_blank">RELLE</a></li>
-                <li><a href="https://www.elab.ist.utl.pt" target="_blank">ELAB</a></li>
-            </ul>
-        </nav>
+            <nav id="navPC" >
+                <a id="Logo" href="./index.html">
+                    <img src="./assets/logocdc.svg" />
+                </a>
+                <ul id="Links">
+                    <li><a class="linkativo" href="./index.html">INÍCIO</a></li>
+                    <li><a href="./eventos.html">EVENTOS</a></li>
+                    <li><a href="./equipe.html">EQUIPE</a></li>
+                    <li><a href="./contato.html">CONTATO</a></li>
+                    <li><a href="http://relle.ufsc.br/labs/28" target="_blank">RELLE</a></li>
+                    <li><a href="http://elab.ist.utl.pt/rec.web//" target="_blank">ELAB</a></li>
+                </ul>
+            </nav>
+            <nav id="navMobile" >
+                <a id="Logo" href="./index.html">
+                    <img src="./assets/logocdc.svg" />
+                </a>
+                <div id= "wrapperMenu">
+                    <img scr="./assets/menu.svg"/>
+                </div>
+                <ul id="Links">
+                    <li><a class="linkativo" href="./index.html">INÍCIO</a></li>
+                    <li><a href="./eventos.html">EVENTOS</a></li>
+                    <li><a href="./equipe.html">EQUIPE</a></li>
+                    <li><a href="./contato.html">CONTATO</a></li>
+                    <li><a href="http://relle.ufsc.br/labs/28" target="_blank">RELLE</a></li>
+                    <li><a href="http://elab.ist.utl.pt/rec.web//" target="_blank">ELAB</a></li>
+                </ul>
+            </nav>
+
     </header>
     <main>
         <div class="TextTitle">
@@ -35,21 +52,29 @@
             <div class="LinksButtons">
                 <img src="./assets/iconelivro.png">
                 <p>Materiais didáticos de referência</p>
-                <a class="ExternalLinks" href="https://courses.mooc.tecnico.ulisboa.pt/courses/course-v1:IST+feX+2019/about" target="_blank">MOOC</a>
-                <a class="ExternalLinks" href="https://graasp.eu/spaces/60507ae083e8a37216a670ae" target="_blank">GRAASP</a>
+                <a class="ExternalLinks"
+                    href="https://courses.mooc.tecnico.ulisboa.pt/courses/course-v1:IST+feX+2019/about"
+                    target="_blank">MOOC</a>
+                <a class="ExternalLinks" href="https://graasp.eu/spaces/60507ae083e8a37216a670ae"
+                    target="_blank">GRAASP</a>
 
             </div>
             <div class="LinksButtons">
                 <img id="WPA" src="./assets/wpacdchq.png">
                 <p>Projeto do Pêndulo Mundial</p>
-                <a class="ExternalLinks" href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/project-overview-portugues/" target="_blank">Página do Projeto</a>
-                <a class="ExternalLinks" href="https://elab.ist.utl.pt/rec.web/" target="_blank">Pêndulos Secundários</a>
+                <a class="ExternalLinks"
+                    href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/project-overview-portugues/"
+                    target="_blank">Página do Projeto</a>
+                <a class="ExternalLinks" href="http://cdc.uesc.br:8000/" target="_blank">Pêndulos Secundários</a>
             </div>
             <div class="LinksButtons">
                 <img src="./assets/starcdc.png">
                 <p>Instituições parceiras</p>
-                <a class="ExternalLinks" href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/parceiros-europeus-da-ue/" target="_blank">da União Europeia</a>
-                <a class="ExternalLinks" href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/parceiros-latino-americanos-latam/" target="_blank">da América Latina</a>
+                <a class="ExternalLinks" href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/parceiros-europeus-da-ue/"
+                    target="_blank">da União Europeia</a>
+                <a class="ExternalLinks"
+                    href="https://wpa.tecnico.ulisboa.pt/~wpa.daemon/pt/parceiros-latino-americanos-latam/"
+                    target="_blank">da América Latina</a>
             </div>
 
 
@@ -65,7 +90,7 @@
                 <li>Universidade Federal do Sul da Bahia (UFSB) - Installed</li>
                 <li>Universidade Federal de Alagoas (UFAL)</li>
                 <li>Universidade Federal de Campina Grande (UFCG)</li>
-                <li>Instituto Federal do Ceará (IFCE)</li>
+                <li>Instituto Federal do Ceará (IFCE) - Installed</li>
                 <li>SECTI-MA</li>
             </ul>
         </div>
@@ -73,7 +98,6 @@
     </main>
     <footer id="rodape">
         <div class="ListaCDC">
-            <a class="Linksrodape" href="./apoiadores.html">APOIADORES</a>
             <a class="Linksrodape" href="./colaborar.html">COMO CONTRIBUIR</a>
             <a class="Linksrodape" href="./contato.html">COMUNIQUE SEU PROJETO</a>
         </div>
@@ -82,10 +106,11 @@
             <p>O Projeto do Pêndulo Mundial é parcialmente financiado pelo programa Erasmus+ da União Europeia</p>
         </div>
         <div class="Apoidores">
-            <img src="./assets/">
-            <img src="./assets/">
+            <!-- <img src="./assets/">
+            <img src="./assets/"> -->
         </div>
     </footer>
+    <script> scr="index.js"</script>
 </body>
 
 </html>
