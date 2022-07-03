@@ -12,33 +12,67 @@
 
 <body>
     <header>
-        <div id="Logo">
-            <img src="./assets/logobc.png" />
-        </div>
-        <nav>
+        <nav id="navPC">
+            <a id="Logo" href="./index.html">
+                <img src="./assets/logocdc.svg" />
+            </a>
             <ul id="Links">
-                <li><a href="./index.html">INÍCIO</a></li>
+                <li><a class="linkativo" href="./index.html">INÍCIO</a></li>
                 <li><a href="./eventos.html">EVENTOS</a></li>
                 <li><a href="./equipe.html">EQUIPE</a></li>
-                <li><a class="linkativo" href="./contato.html">CONTATO</a></li>
+                <li><a href="./contato.html">CONTATO</a></li>
                 <li><a href="http://relle.ufsc.br/labs/28" target="_blank">RELLE</a></li>
-                <li><a href="https://www.elab.ist.utl.pt" target="_blank">ELAB</a></li>
+                <li><a href="http://elab.ist.utl.pt/rec.web//" target="_blank">ELAB</a></li>
+            </ul>
+        </nav>
+        <nav id="navMobile">
+            <a id="Logo" href="./index.html">
+                <img src="./assets/logocdc.svg" />
+            </a>
+            <div id="wrapperMenu">
+                <img scr="./assets/menu.svg" />
+            </div>
+            <ul id="Links">
+                <li><a class="linkativo" href="./index.html">INÍCIO</a></li>
+                <li><a href="./eventos.html">EVENTOS</a></li>
+                <li><a href="./equipe.html">EQUIPE</a></li>
+                <li><a href="./contato.html">CONTATO</a></li>
+                <li><a href="http://relle.ufsc.br/labs/28" target="_blank">RELLE</a></li>
+                <li><a href="http://elab.ist.utl.pt/rec.web//" target="_blank">ELAB</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <div class="Title">
+            <h1>Contate-nos</h1>
+        </div>
+        <div class="contact">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="415" height="322" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=universidade%20estadual%20de%20santa%20cruz&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+                    </iframe>
+                    <a href="https://fmovies-online.net">fmovies</a><br>
+                </div>
+            </div>
+            <div class="info">
+                <h2>End: Laboratório CDC UESC</h2>
+                <p>UESC, Campus Soane de Nazaré - Ilhéus</p>
+                <h2>Tel: 73 98833-6112</h2>
+                <h2>E-mail: gsamarante@uesc.br</h2>
+            </div>
+    </main>
     <footer id="rodape">
         <div class="ListaCDC">
-            <a class="Linksrodape" href="./apoiadores.html">APOIADORES</a>
             <a class="Linksrodape" href="./colaborar.html">COMO CONTRIBUIR</a>
             <a class="Linksrodape" href="./contato.html">COMUNIQUE SEU PROJETO</a>
         </div>
         <div class="Cofounded">
             <img src="./assets/cofinanciadoEN.png">
             <p>O Projeto do Pêndulo Mundial é parcialmente financiado pelo programa Erasmus+ da União Europeia</p>
-        </div>
-        <div class="Apoidores">
-            <img src="./assets/">
-            <img src="./assets/">
         </div>
     </footer>
 </body>

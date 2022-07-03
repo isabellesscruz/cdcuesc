@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 body {
     width: 100%;
     background-image: url(./assets/bg.webp);
-    background-size:auto;
+    background-size: auto;
 }
 
 #navPC {
@@ -16,36 +18,39 @@ body {
     justify-content: space-between;
     width: 100%;
     font-size: 16px;
-    background-color: #0000003f;
+    background-color: #00000086;
     font-family: 'Roboto', sans-serif;
     height: 80px;
     align-items: center;
     position: fixed;
     backdrop-filter: blur(2px);
 }
-#navMobile{
-    width:100%;    
+
+#navMobile {
+    width: 100%;
     height: 80px;
-    position:fixed;
+    position: fixed;
     display: none;
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 0 10px #0002;
     pointer-events: none;
     background-color: black;
-}    
-#navMobile #wrapperMenu{
+}
+
+#navMobile #wrapperMenu {
     pointer-events: auto;
     width: 15%;
 
 }
-#navMobile #wrapperMenu img{
-    height:30px;
+
+#navMobile #wrapperMenu img {
+    height: 30px;
     width: 30px;
 }
 
-#navMobile #Links{
-    display:flex;
+#navMobile #Links {
+    display: flex;
     flex-direction: column;
     max-height: 0;
     overflow: hidden;
@@ -54,29 +59,30 @@ body {
     transition: max-height 900ms ease;
 }
 
-#navMobile:hover #Links{
+#navMobile:hover #Links {
     max-height: 500px;
 }
 
-#navMobile #Links li{
+#navMobile #Links li {
     padding: 10px 0;
-    background-color: white 
+    background-color: white
 }
 
-#navMobile #Links li:hover{
+#navMobile #Links li:hover {
     background-color: #a19c9c;
 }
 
-#navMobile #Links li a{   
+#navMobile #Links li a {
     letter-spacing: 1.2px;
     text-transform: uppercase;
     font-weight: 400;
-    color:#393945
+    color: #393945
 }
 
-#navMobile #Links li:hover a{
+#navMobile #Links li:hover a {
     color: white;
 }
+
 main {
     width: 100%;
     overflow: hidden;
@@ -102,10 +108,6 @@ nav #Links li:hover a {
     font-weight: 700;
 }
 
-.ListaCDC a:hover {
-    font-weight: 700;
-}
-
 #Logo img {
     width: 150px;
     padding-left: 30px;
@@ -122,6 +124,31 @@ a {
 }
 
 .linkativo {
+    font-weight: 700;
+}
+
+.Cofounded {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+.Cofounded img {
+    max-width: 300px;
+}
+
+.Cofounded p {
+    max-width: 50%;
+    text-align: center;
+}
+
+/* HOME */
+
+.ListaCDC a:hover {
     font-weight: 700;
 }
 
@@ -247,35 +274,55 @@ a {
     color: white;
 }
 
-.Cofounded {
-    display: flex;
-    justify-content: space-around;
+/* CONTATO */
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 322px;
+    width: 415px;
+}
+
+.Title {
+    padding-top: 90px;
     width: 100%;
-    font-size: 16px;
-    align-items: center;
-    height: 150px;
-    flex-wrap: wrap;
-}
-
-.Cofounded img {
-    max-width: 300px;
-}
-
-.Cofounded p {
-    max-width: 50%;
+    font-size: 2em;
     text-align: center;
+}
+.Title h1{
+    font-weight: 600;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.info{
+    gap: 5px;
+}
+.info h2{
+    font-size: 1.5em;
+    font-weight: 600;
+
 }
 
 /* Responsividade */
-@media (max-width:1100px){
-    #navPC{
-        display:none;
+@media (max-width:1100px) {
+    #navPC {
+        display: none;
     }
-    main{
+
+    main {
         padding: 0;
         padding-top: 80px;
     }
-    #navMobile{
+
+    #navMobile {
         display: block;
     }
 }
