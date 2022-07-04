@@ -33,7 +33,7 @@ body {
     display: none;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 0 10px #0002;
+    box-shadow: 5px 0 10px #000;
     pointer-events: none;
     background-color: black;
 }
@@ -60,6 +60,7 @@ body {
     pointer-events: auto;
     text-align: center;
     transition: max-height 900ms ease;
+    box-shadow: 5px 0 10px #000;
 }
 
 #navMobile:hover #Links {
