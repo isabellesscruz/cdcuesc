@@ -40,7 +40,7 @@ body {
 
 #navMobile #wrapperMenu {
     pointer-events: auto;
-    width: 15%;
+    margin-right: 20px;
 
 }
 
@@ -51,8 +51,11 @@ body {
 
 #navMobile #Links {
     display: flex;
+    position: absolute;
     flex-direction: column;
     max-height: 0;
+    width: 150px;
+    right: 0;
     overflow: hidden;
     pointer-events: auto;
     text-align: center;
@@ -61,6 +64,7 @@ body {
 
 #navMobile:hover #Links {
     max-height: 500px;
+
 }
 
 #navMobile #Links li {
@@ -321,6 +325,6 @@ a {
     }
 
     #navMobile {
-        display: block;
+        display: flex;
     }
 }
