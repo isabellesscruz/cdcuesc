@@ -294,24 +294,69 @@ a {
     font-size: 2em;
     text-align: center;
 }
-.Title h1{
+
+.Title h1 {
     font-weight: 600;
 }
 
 .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    gap:20px;
+    gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
 }
-.info h2{
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.info h2 {
     font-size: 1.5em;
     font-weight: 600;
 
+}
+
+/*Equipe*/
+.Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 310px;
+    transition: all 0.3s ease-out;
+    background-color: white;
+}
+
+.Card img {
+    width: 100px;
+
+}
+
+.IconCard img {
+    width: 25px;
 }
 
 /* Responsividade */
