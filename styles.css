@@ -105,6 +105,7 @@ footer {
     background-color: white;
     padding: 20px;
     gap: 10px;
+    text-align: center;
 }
 .Icones{
     display: flex;
