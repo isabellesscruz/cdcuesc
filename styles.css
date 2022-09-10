@@ -134,6 +134,8 @@ a {
 
 .Cofounded {
     display: flex;
+    padding-top: 10px;
+    gap: 10px;
     justify-content: space-around;
     width: 100%;
     font-size: 16px;
@@ -216,6 +218,7 @@ a {
 }
 
 .Rede {
+    padding: 10px;
     padding-top: 60px;
     padding-bottom: 30px;
     background-color: #748a8f;
@@ -285,7 +288,7 @@ a {
     overflow: hidden;
     background: none !important;
     height: 322px;
-    width: 415px;
+    width: 400px;
 }
 
 .Title {
@@ -302,12 +305,10 @@ a {
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
@@ -368,6 +369,9 @@ a {
     main {
         padding: 0;
         padding-top: 80px;
+    }
+    .TextTitle h1 {
+        font-size: 50px;
     }
 
     #navMobile {
