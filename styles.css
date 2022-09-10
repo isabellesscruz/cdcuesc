@@ -95,8 +95,23 @@ main {
 
 footer {
     width: 100%;
+    background-color: white;
 }
-
+.ContatosRodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+}
+.Icones{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;   
+}
 
 #navPC #Links {
     display: flex;
