@@ -150,6 +150,7 @@ a {
 
 .Cofounded {
     display: flex;
+    flex-direction: row;
     padding-top: 10px;
     padding-bottom: 40px;
     gap: 10px;
@@ -159,6 +160,7 @@ a {
     align-items: center;
     height: 150px;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .Cofounded img {
